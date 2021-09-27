@@ -1,0 +1,1128 @@
+fileFormatVersion: 2
+guid: 81760c6293b35f647ad6cf5e7d652540
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2303246490941424718
+    second: aycicekleri_0
+  - first:
+      213: 5821667390310162895
+    second: aycicekleri_1
+  - first:
+      213: -8681188091935401224
+    second: aycicekleri_2
+  - first:
+      213: -9049454133272479124
+    second: aycicekleri_3
+  - first:
+      213: 3527474586904986611
+    second: aycicekleri_4
+  - first:
+      213: 5682842362096455812
+    second: aycicekleri_5
+  - first:
+      213: -5735900222021765385
+    second: aycicekleri_6
+  - first:
+      213: -4053087116014774594
+    second: aycicekleri_7
+  - first:
+      213: -2499118009757501256
+    second: aycicekleri_8
+  - first:
+      213: 7420550173125561396
+    second: aycicekleri_9
+  - first:
+      213: -1667599940013327487
+    second: aycicekleri_10
+  - first:
+      213: -6792562643411344884
+    second: aycicekleri_11
+  - first:
+      213: 6971827197272801924
+    second: aycicekleri_12
+  - first:
+      213: -1750667842719423585
+    second: aycicekleri_13
+  - first:
+      213: 7497393362643672994
+    second: aycicekleri_14
+  - first:
+      213: 5255915441455847218
+    second: aycicekleri_15
+  - first:
+      213: 7072372682888719086
+    second: aycicekleri_16
+  - first:
+      213: 3101520788304845209
+    second: aycicekleri_17
+  - first:
+      213: -638661897802581665
+    second: aycicekleri_18
+  - first:
+      213: 6870981649046119967
+    second: aycicekleri_19
+  - first:
+      213: 9210773398694263955
+    second: aycicekleri_20
+  - first:
+      213: 7806967388498039510
+    second: aycicekleri_21
+  - first:
+      213: -5681559719594061480
+    second: aycicekleri_22
+  - first:
+      213: -3951506941880375628
+    second: aycicekleri_23
+  - first:
+      213: -9111898086612468408
+    second: aycicekleri_24
+  - first:
+      213: 1821400055336069017
+    second: aycicekleri_25
+  - first:
+      213: -4125547381446261990
+    second: aycicekleri_26
+  - first:
+      213: 4277546622631922165
+    second: aycicekleri_27
+  - first:
+      213: -7428717763640920628
+    second: aycicekleri_28
+  - first:
+      213: -2554394531629843204
+    second: aycicekleri_29
+  - first:
+      213: -6810375553092508868
+    second: aycicekleri_30
+  - first:
+      213: -6380051819768393704
+    second: aycicekleri_31
+  - first:
+      213: -7398466981846748651
+    second: aycicekleri_32
+  - first:
+      213: -8148121452948013209
+    second: aycicekleri_33
+  - first:
+      213: 618237421609819508
+    second: aycicekleri_34
+  - first:
+      213: 5537393700270232350
+    second: aycicekleri_35
+  - first:
+      213: -3456326151963046912
+    second: aycicekleri_36
+  - first:
+      213: -7048812526291280753
+    second: aycicekleri_37
+  - first:
+      213: 3239056758161042001
+    second: aycicekleri_38
+  - first:
+      213: 3557760147238948105
+    second: aycicekleri_39
+  - first:
+      213: 1896197045209208991
+    second: aycicekleri_40
+  - first:
+      213: 6688423291391264631
+    second: aycicekleri_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 641, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aycicekleri_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 21
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb754505893900e0800000000000000
+      internalID: -2303246490941424718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 21
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1a9ef95a7bac050800000000000000
+      internalID: 5821667390310162895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 27
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fad6dfdc69368780800000000000000
+      internalID: -8681188091935401224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 25
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a7a1f6961e96280800000000000000
+      internalID: -9049454133272479124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 21
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f380ba827b14f030800000000000000
+      internalID: 3527474586904986611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 23
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4801d43f4038dde40800000000000000
+      internalID: 5682842362096455812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 23
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6fe4f532df560b0800000000000000
+      internalID: -5735900222021765385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 25
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb61a3efdba80c7c0800000000000000
+      internalID: -4053087116014774594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 25
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b87f983969515dd0800000000000000
+      internalID: -2499118009757501256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 26
+        width: 11
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ccc1311171bf660800000000000000
+      internalID: 7420550173125561396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_10
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 24
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bfa0c90be7bd8e0800000000000000
+      internalID: -1667599940013327487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 25
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02e0eca348fbb1a0800000000000000
+      internalID: -6792562643411344884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 24
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4824ad8c5e7e0c060800000000000000
+      internalID: 6971827197272801924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 25
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93620b5fd064b7e0800000000000000
+      internalID: -1750667842719423585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_14
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 21
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af5fb95a871c0860800000000000000
+      internalID: 7497393362643672994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_15
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 21
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23757793f33c0f840800000000000000
+      internalID: 5255915441455847218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 27
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea22caeb7d162260800000000000000
+      internalID: 7072372682888719086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 25
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999566279b0da0b20800000000000000
+      internalID: 3101520788304845209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_18
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 21
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5976e143640327f0800000000000000
+      internalID: -638661897802581665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_19
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 23
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f162f91e761aa5f50800000000000000
+      internalID: 6870981649046119967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_20
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 23
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cf9c7fa9d33df70800000000000000
+      internalID: 9210773398694263955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_21
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 25
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d21c7c0a7be75c60800000000000000
+      internalID: 7806967388498039510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_22
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 25
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8519d67898b0721b0800000000000000
+      internalID: -5681559719594061480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_23
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 26
+        width: 11
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6eab15f5d6929c0800000000000000
+      internalID: -3951506941880375628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_24
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 24
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84df6e597f80c8180800000000000000
+      internalID: -9111898086612468408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_25
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 25
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997ee2c33b9e64910800000000000000
+      internalID: 1821400055336069017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_26
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 24
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a134ad0c38c1fb6c0800000000000000
+      internalID: -4125547381446261990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_27
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 25
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9c5286df5ec5b30800000000000000
+      internalID: 4277546622631922165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_28
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 21
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc57c819d84e7e890800000000000000
+      internalID: -7428717763640920628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_29
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 21
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcb00e05b7fc8cd0800000000000000
+      internalID: -2554394531629843204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 27
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33aae2748fac71a0800000000000000
+      internalID: -6810375553092508868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_31
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 25
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810de124ca08577a0800000000000000
+      internalID: -6380051819768393704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_32
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 21
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51271909a7d535990800000000000000
+      internalID: -7398466981846748651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_33
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 23
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f3b4a85be0cee80800000000000000
+      internalID: -8148121452948013209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_34
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 23
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d18edc8ab649800800000000000000
+      internalID: 618237421609819508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_35
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 25
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13d7166b36c8dc40800000000000000
+      internalID: 5537393700270232350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_36
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 25
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c895c5da9a800d0800000000000000
+      internalID: -3456326151963046912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_37
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 26
+        width: 11
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c95128a569d2e90800000000000000
+      internalID: -7048812526291280753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_38
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 24
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a6485d5f073fc20800000000000000
+      internalID: 3239056758161042001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_39
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 25
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d083c0104bf5130800000000000000
+      internalID: 3557760147238948105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_40
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 24
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9817d78a25a05a10800000000000000
+      internalID: 1896197045209208991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aycicekleri_41
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 25
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77743d6fb8d02dc50800000000000000
+      internalID: 6688423291391264631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
