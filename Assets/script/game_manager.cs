@@ -13,7 +13,9 @@ public class game_manager : MonoBehaviour
     public GameObject pausebutton;
     public GameObject resumebutton;
     public bool kontrol;
-    public Toggle check;
+
+   
+
     
     void Start()
     {
@@ -23,15 +25,7 @@ public class game_manager : MonoBehaviour
         
 
         highscore.text = PlayerPrefs.GetInt("highscore",0).ToString();
-        kontrol = PlayerPrefs.GetInt("kontrol")==1;
-        if (kontrol==false)
-        {
-            check.isOn =false;
-        }
-        else
-        {
-            check.isOn = true;
-        }
+       
     } 
     
    public void updatescore()
@@ -146,21 +140,22 @@ public class game_manager : MonoBehaviour
     {
         hiz = Time.timeScale;
         Time.timeScale = 0f;
-    
-
+      
+            
         pausebutton.SetActive(false);
         resumebutton.SetActive(true);
-
+       
     }
     public void resume()
     {
        
         Time.timeScale = hiz;
-       
 
+        
         pausebutton.SetActive(true);
         resumebutton.SetActive(false);
-
+       
+        
 
 
     }
