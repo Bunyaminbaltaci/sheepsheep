@@ -56,18 +56,7 @@ public class koyun_control : MonoBehaviour
            
             if (IsPointerOverGameObject(Input.GetTouch(0).fingerId))
             {
-                if (pausecheck1 == false)
-                {
-                    pausecheck1 = true;
-                    Debug.Log("pauselandý");
-                }
-                else
-                {
-                    pausecheck1 = false;
-                    Debug.Log("devam");
-
-                }
-
+               
             }
             else
             {
@@ -134,13 +123,7 @@ public class koyun_control : MonoBehaviour
    
       
     }
-    public void pausecheck()
-    {
-       
-
-    }
-
-
+   
 
 
 

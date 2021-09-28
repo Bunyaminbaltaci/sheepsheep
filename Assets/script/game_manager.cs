@@ -12,6 +12,8 @@ public class game_manager : MonoBehaviour
     public float hiz;
     public GameObject pausebutton;
     public GameObject resumebutton;
+    public GameObject ekrankapatma;
+
     public bool kontrol;
 
    
@@ -25,7 +27,14 @@ public class game_manager : MonoBehaviour
         
 
         highscore.text = PlayerPrefs.GetInt("highscore",0).ToString();
-       
+        if (PlayerPrefs.GetInt("kontrol")==1)
+        {
+            kontrol = true;
+        }
+         else if (PlayerPrefs.GetInt("kontrol") == 0)
+        {
+            kontrol = false;
+        }
     } 
     
    public void updatescore()
@@ -144,7 +153,9 @@ public class game_manager : MonoBehaviour
             
         pausebutton.SetActive(false);
         resumebutton.SetActive(true);
-       
+        ekrankapatma.SetActive(true);
+
+
     }
     public void resume()
     {
@@ -154,7 +165,7 @@ public class game_manager : MonoBehaviour
         
         pausebutton.SetActive(true);
         resumebutton.SetActive(false);
-       
+        ekrankapatma.SetActive(false);
         
 
 

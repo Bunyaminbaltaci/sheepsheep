@@ -26,15 +26,5 @@ public class audio : MonoBehaviour
       sound s= Array.Find(sounds,sound=>sound.name==name);
         s.source.Play();
     }
-     public void mutekey()
-    {
-
-        foreach (sound s in sounds)
-        {
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.mute=!s.source.mute;
-          
-        }
-        AudioListener.pause = false;
-    }
+    
 }

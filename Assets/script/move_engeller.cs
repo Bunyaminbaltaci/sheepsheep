@@ -7,12 +7,13 @@ public class move_engeller : MonoBehaviour
     public float arkap_hiz;
   
     public GameObject koyun;
-    public Rigidbody2D rb;
+
+
 
 
     private void awake()
     {
-        rb.GetComponent<Rigidbody2D>();
+      
 
     }
 
@@ -25,7 +26,7 @@ public class move_engeller : MonoBehaviour
     void Update()
     {
 
-        rb.velocity = new Vector2(-1f, 0f)* arkap_hiz;
+        transform.position = new Vector3((transform.position.x-arkap_hiz * Time.deltaTime), -2.15f, 0);
 
         if (transform.position.x <= koyun.transform.position.x )
         {
