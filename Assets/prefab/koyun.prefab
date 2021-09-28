@@ -123,7 +123,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -157,9 +157,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isdead: 0
   jumpforce: 7.8
-  "z\u0131plamakontrol": 1
+  ziplamakontrol: 0
   zeminkontrol:
     serializedVersion: 2
     m_Bits: 64
   manager: {fileID: 0}
   deathscreen: {fileID: 0}
+  pausescreen: {fileID: 0}

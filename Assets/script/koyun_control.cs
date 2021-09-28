@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 
 
@@ -17,10 +19,18 @@ public class koyun_control : MonoBehaviour
     public game_manager manager;
     public GameObject deathscreen;
     public GameObject pausescreen;
+    public bool pausecheck1;
     
-  
-  
-    
+
+
+
+    public bool IsPointerOverGameObject(int fingerId)
+    {
+        EventSystem eventSystem = EventSystem.current;
+        return (eventSystem.IsPointerOverGameObject(fingerId)
+            && eventSystem.currentSelectedGameObject != null);
+    }
+
 
 
 
@@ -30,33 +40,61 @@ public class koyun_control : MonoBehaviour
         koyun_alan = GetComponent<Collider2D>();
         animasyon_kont = GetComponent<Animator>();
         Time.timeScale = 1;
-       
+        pausecheck1 = false;
 
-       
+
     }
 
     // Update is called once per frame
     void Update()
     {
-  
+      
         ziplamakontrol = Physics2D.IsTouchingLayers(koyun_alan, zeminkontrol);
-
-
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space) )
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
 
-
-            if (ziplamakontrol == true)
+           
+            if (IsPointerOverGameObject(Input.GetTouch(0).fingerId))
             {
-                FindObjectOfType<audio>().Play("playerjump");
-                koyun_fizik.velocity = new Vector2(koyun_fizik.velocity.x, jumpforce);
-                ziplamakontrol = false;
-            }
+                if (pausecheck1 == false)
+                {
+                    pausecheck1 = true;
+                    Debug.Log("pauselandý");
+                }
+                else
+                {
+                    pausecheck1 = false;
+                    Debug.Log("devam");
 
+                }
+
+            }
+            else
+            {
+               
+               
+
+
+                if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space) && pausecheck1==false)
+                {
+
+
+                    if (ziplamakontrol == true)
+                    {
+                        FindObjectOfType<audio>().Play("playerjump");
+                        koyun_fizik.velocity = new Vector2(koyun_fizik.velocity.x, jumpforce);
+                        ziplamakontrol = false;
+                    }
+
+                }
+
+                
+
+            }
+            
         }
 
         animasyon_kont.SetBool("ziplamakontrol", ziplamakontrol);
-
 
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -92,8 +130,15 @@ public class koyun_control : MonoBehaviour
           
             
         }
-    }
 
+   
+      
+    }
+    public void pausecheck()
+    {
+       
+
+    }
 
 
 
