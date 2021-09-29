@@ -200,7 +200,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.8}
+  m_Size: {x: 6.5, y: 1.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -216,7 +216,6 @@ GameObject:
   m_Component:
   - component: {fileID: 34532525}
   - component: {fileID: 34532526}
-  - component: {fileID: 34532527}
   m_Layer: 0
   m_Name: oyun alani
   m_TagString: Untagged
@@ -232,7 +231,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34532524}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -56.078, y: -2.233, z: 2.8072863}
+  m_LocalPosition: {x: 0, y: -2.233, z: 2.8072863}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1899132361}
@@ -258,28 +257,6 @@ MonoBehaviour:
   arkap_hiz: 3
   bitisbolgesi: {fileID: 1028897212}
   baslangicbolgesi: {fileID: 770327069}
-  rb: {fileID: 34532527}
---- !u!50 &34532527
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34532524}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 1
-  m_SleepingMode: 0
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &75291365
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,7 +334,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 0.3}
+  m_Size: {x: 6.5, y: 0.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -390,9 +367,9 @@ Transform:
   m_LocalPosition: {x: 1729.2343, y: 1043.1733, z: -6.118196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1766307399}
   - {fileID: 770327071}
   - {fileID: 1028897214}
-  - {fileID: 1766307399}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -406,7 +383,6 @@ GameObject:
   m_Component:
   - component: {fileID: 136202434}
   - component: {fileID: 136202433}
-  - component: {fileID: 136202435}
   m_Layer: 0
   m_Name: oyun alani (1)
   m_TagString: Untagged
@@ -429,7 +405,6 @@ MonoBehaviour:
   arkap_hiz: 3
   bitisbolgesi: {fileID: 1028897212}
   baslangicbolgesi: {fileID: 770327069}
-  rb: {fileID: 136202435}
 --- !u!4 &136202434
 Transform:
   m_ObjectHideFlags: 0
@@ -438,7 +413,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136202432}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.678, y: -2.233, z: 2.8072863}
+  m_LocalPosition: {x: -25.5, y: -2.233, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1861642247}
@@ -449,27 +424,6 @@ Transform:
   m_Father: {fileID: 2095657145}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &136202435
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136202432}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 1
-  m_SleepingMode: 0
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!4 &206948552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3040228895865190296, guid: 1d76643e095fbcf498d80d29e0e761f5, type: 3}
@@ -651,7 +605,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434807466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -56.078, y: -3.573, z: 2.8072863}
+  m_LocalPosition: {x: -25.5, y: -3.573, z: 2.8072863}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 2103185222}
@@ -722,7 +676,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.11}
+  m_Size: {x: 6.5, y: 1.11}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -743,7 +697,6 @@ MonoBehaviour:
   arkap_hiz: 0.7
   bitisbolgesi: {fileID: 1028897212}
   baslangicbolgesi: {fileID: 770327069}
-  rb: {fileID: 434807471}
 --- !u!50 &434807471
 Rigidbody2D:
   serializedVersion: 4
@@ -1366,11 +1319,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770327069}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1704.3743, y: -1043.1733, z: 6.118196}
+  m_LocalPosition: {x: -1703.7343, y: -1043.1733, z: 6.118196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 91670725}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &833516124
 GameObject:
@@ -1636,7 +1589,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.8}
+  m_Size: {x: 6.5, y: 1.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1719,7 +1672,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.8}
+  m_Size: {x: 6.5, y: 1.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1763,11 +1716,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028897212}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1781.1742, y: -1043.1733, z: 6.118196}
+  m_LocalPosition: {x: -1754.7343, y: -1043.1733, z: 6.118196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 91670725}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1076437797
 GameObject:
@@ -2150,7 +2103,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 0.3}
+  m_Size: {x: 6.5, y: 0.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2233,7 +2186,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.8}
+  m_Size: {x: 6.5, y: 1.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2330,7 +2283,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.8}
+  m_Size: {x: 6.5, y: 1.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2610,7 +2563,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 91670725}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1766307400
 MonoBehaviour:
@@ -2703,7 +2656,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.8}
+  m_Size: {x: 6.5, y: 1.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2773,7 +2726,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.8}
+  m_Size: {x: 6.5, y: 1.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2811,7 +2764,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 3.2, y: 1.8}
-    newSize: {x: 10, y: 1.8}
+    newSize: {x: 6.5, y: 1.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 0
@@ -2926,7 +2879,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991843021}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.678, y: -3.573, z: 2.8072863}
+  m_LocalPosition: {x: 0, y: -3.573, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 2103185222}
@@ -2997,7 +2950,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.11}
+  m_Size: {x: 6.5, y: 1.11}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3018,7 +2971,6 @@ MonoBehaviour:
   arkap_hiz: 0.7
   bitisbolgesi: {fileID: 1028897212}
   baslangicbolgesi: {fileID: 770327069}
-  rb: {fileID: 1991843026}
 --- !u!50 &1991843026
 Rigidbody2D:
   serializedVersion: 4
@@ -3115,7 +3067,6 @@ GameObject:
   - component: {fileID: 2103983398}
   - component: {fileID: 2103983397}
   - component: {fileID: 2103983396}
-  - component: {fileID: 2103983399}
   m_Layer: 0
   m_Name: arka plan 1 (1)
   m_TagString: Untagged
@@ -3138,7 +3089,6 @@ MonoBehaviour:
   arkap_hiz: 0.3
   bitisbolgesi: {fileID: 1028897212}
   baslangicbolgesi: {fileID: 770327069}
-  rb: {fileID: 2103983399}
 --- !u!212 &2103983397
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3185,7 +3135,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.82}
+  m_Size: {x: 6.5, y: 1.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3199,33 +3149,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103983395}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.678, y: -2.233, z: 2.8072863}
+  m_LocalPosition: {x: -25.5, y: -2.233, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 928212658}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &2103983399
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2103983395}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 2
-  m_SleepingMode: 0
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &2110905184
 GameObject:
   m_ObjectHideFlags: 0
@@ -3316,7 +3245,6 @@ GameObject:
   - component: {fileID: 2135885250}
   - component: {fileID: 2135885251}
   - component: {fileID: 2135885252}
-  - component: {fileID: 2135885254}
   m_Layer: 0
   m_Name: arka plan 1
   m_TagString: Untagged
@@ -3332,7 +3260,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135885249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -56.078, y: -2.233, z: 2.8072863}
+  m_LocalPosition: {x: 0, y: -2.233, z: 2.8072863}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 928212658}
@@ -3384,7 +3312,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10, y: 1.82}
+  m_Size: {x: 6.5, y: 1.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3405,28 +3333,6 @@ MonoBehaviour:
   arkap_hiz: 0.3
   bitisbolgesi: {fileID: 1028897212}
   baslangicbolgesi: {fileID: 770327069}
-  rb: {fileID: 2135885254}
---- !u!50 &2135885254
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135885249}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 2
-  m_SleepingMode: 0
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &2143778107
 GameObject:
   m_ObjectHideFlags: 0
@@ -3518,7 +3424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1165082504002604009, guid: 5ce1ab1ffbeecd24eaf9d497e2d24043, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.15
+      value: -2.65
       objectReference: {fileID: 0}
     - target: {fileID: 1165082504002604009, guid: 5ce1ab1ffbeecd24eaf9d497e2d24043, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3566,7 +3472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1165082504260841202, guid: 5ce1ab1ffbeecd24eaf9d497e2d24043, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1165082504320583534, guid: 5ce1ab1ffbeecd24eaf9d497e2d24043, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3584,15 +3490,24 @@ PrefabInstance:
       propertyPath: "h\u0131zkontrol"
       value: 
       objectReference: {fileID: 5727922044214026233, guid: 08c8638e54c61b248aedf8e274528661, type: 3}
+    - target: {fileID: 4312181645960251725, guid: 5ce1ab1ffbeecd24eaf9d497e2d24043, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591946918302495042, guid: 5ce1ab1ffbeecd24eaf9d497e2d24043, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6462302008704532098, guid: 5ce1ab1ffbeecd24eaf9d497e2d24043, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8977332650317620542, guid: 5ce1ab1ffbeecd24eaf9d497e2d24043, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5ce1ab1ffbeecd24eaf9d497e2d24043, type: 3}
 --- !u!1001 &3040228895660572496
 PrefabInstance:
@@ -3648,6 +3563,10 @@ PrefabInstance:
     - target: {fileID: 3040228895865190296, guid: 1d76643e095fbcf498d80d29e0e761f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3040228895865190297, guid: 1d76643e095fbcf498d80d29e0e761f5, type: 3}
+      propertyPath: m_Size.x
+      value: 6.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d76643e095fbcf498d80d29e0e761f5, type: 3}
