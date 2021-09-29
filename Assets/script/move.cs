@@ -7,29 +7,14 @@ public class move : MonoBehaviour
     public float arkap_hiz;
     public GameObject bitisbolgesi, baslangicbolgesi;
     private Vector3 konum;
-    public Rigidbody2D rb;
+ 
 
 
-    private void awake()
+  
+    void Update()
     {
-        rb.GetComponent<Rigidbody2D>();
-        
-    }
 
-    private void Update()
-    {
-        rb.velocity = new Vector2(-1.0f,0f)*arkap_hiz;
-        //hareket hýz kodu
-       // transform.position += Vector3.left * arkap_hiz * Time.deltaTime;
-
-        //*
-
-    }
-    void FixedUpdate()
-    {
-      
-       
-
+        transform.position = new Vector3((transform.position.x - (arkap_hiz * Time.deltaTime)), transform.position.y, 0);
         //yerdeðiþtire 
         if (transform.position.x <= bitisbolgesi.transform.position.x)
         {
