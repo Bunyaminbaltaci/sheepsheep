@@ -14,14 +14,14 @@ public class reklam : MonoBehaviour
         MobileAds.Initialize(initStatus => { });
       
         RequestBanner();
-        reklamkaldir();
+       
         
     }
 
     private void RequestBanner()
     {
             
-        string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+        string adUnitId = "ca-app-pub-4123278390459389/6545992476";
         this.bannerView = new BannerView(adUnitId,AdSize.Banner, AdPosition.Bottom);
         AdRequest request = new AdRequest.Builder().Build();
         this.bannerView.LoadAd(request );
