@@ -7,7 +7,7 @@ using System;
 
 public class audio : MonoBehaviour
 {
-
+ 
     public sound[] sounds;
     void Awake()
     {
@@ -26,5 +26,5 @@ public class audio : MonoBehaviour
       sound s= Array.Find(sounds,sound=>sound.name==name);
         s.source.Play();
     }
-    
+   
 }

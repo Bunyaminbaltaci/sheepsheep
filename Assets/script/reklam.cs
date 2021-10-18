@@ -22,7 +22,7 @@ public class reklam : MonoBehaviour
     {
             
         string adUnitId = "ca-app-pub-4123278390459389/6545992476";
-        this.bannerView = new BannerView(adUnitId,AdSize.Banner, AdPosition.Bottom);
+        this.bannerView = new BannerView(adUnitId,AdSize.SmartBanner, AdPosition.Bottom);
         AdRequest request = new AdRequest.Builder().Build();
         this.bannerView.LoadAd(request );
     }   

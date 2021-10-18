@@ -13,12 +13,7 @@ public class game_manager : MonoBehaviour
     public GameObject pausebutton;
     public GameObject resumebutton;
     public GameObject ekrankapatma;
-
     public bool kontrol;
-
-   
-
-    
     void Start()
     {
         Time.timeScale = 1;
@@ -129,9 +124,6 @@ public class game_manager : MonoBehaviour
     public void restartgame()
     {
         SceneManager.LoadScene(1);
-
-
-
     }
     public void highscorekontrol()
     {
