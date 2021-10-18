@@ -14,12 +14,7 @@ public class move_engeller : MonoBehaviour
       
 
 
-        if (transform.position.x <= koyun.transform.position.x )
-        {
-            Destroy(gameObject,2);
-
-
-        }
+       
            
     }
    

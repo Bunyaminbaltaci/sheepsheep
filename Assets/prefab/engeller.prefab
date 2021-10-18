@@ -108,7 +108,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arkap_hiz: 3
-  smoothFactor: 1
   koyun: {fileID: 5727922044214026215, guid: 08c8638e54c61b248aedf8e274528661, type: 3}
 --- !u!1 &1165082504260841203
 GameObject:

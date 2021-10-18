@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class spawner : MonoBehaviour
 {
-    
+
+    [SerializeField] private ObjectPoller objectpool;
+
     public koyun_control koyunkont;
     public GameObject engeller;         
 
     void Start()
     {
-        StartCoroutine(Spawobject());
+        StartCoroutine(nameof(Spawobject));
     }
 
     
@@ -18,14 +20,10 @@ public class spawner : MonoBehaviour
     {
         while (!koyunkont.isdead)
         {
-            Instantiate(engeller, transform.position, Quaternion.identity);
+            var obj=objectpool.GetPooledObject(0);
+            obj.transform.position = new Vector2(15.5f,0);
             yield return new WaitForSeconds(Random.Range(2, 5));
 
         }
-    
-        
-       
-
-
     }
 }
